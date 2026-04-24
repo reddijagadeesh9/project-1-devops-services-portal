@@ -35,20 +35,20 @@ pipeline {
     }
 
     post {
-    success {
-        slackSend(
-            channel: '#jenkins-alerts',
-            color: 'good',
-            message: "✅ Build Successful: DevOps Services Portal deployed successfully!"
-        )
-    }
+        success {
+            slackSend(
+                channel: '#jenkins-alerts',
+                color: 'good',
+                message: "✅ Build Successful: DevOps Services Portal deployed successfully!"
+            )
+        }
 
-    failure {
-        slackSend(
-            channel: '#jenkins-alerts',
-            color: 'danger',
-            message: "❌ Build Failed: Check Jenkins pipeline immediately!"
-        )
+        failure {
+            slackSend(
+                channel: '#jenkins-alerts',
+                color: 'danger',
+                message: "❌ Build Failed: Check Jenkins pipeline immediately!"
+            )
+        }
     }
-}
 }
