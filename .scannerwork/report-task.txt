@@ -1,0 +1,6 @@
+projectKey=devops-services-portal
+serverUrl=http://13.48.196.197:9000
+serverVersion=9.9.8.100196
+dashboardUrl=http://13.48.196.197:9000/dashboard?id=devops-services-portal
+ceTaskId=AZ2-9hAs047glXBmm4Jj
+ceTaskUrl=http://13.48.196.197:9000/api/ce/task?id=AZ2-9hAs047glXBmm4Jj
