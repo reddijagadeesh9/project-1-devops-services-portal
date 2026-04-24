@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/reddijagadeesh9/project-1-devops-services-portal.git'
+            }
+        }
+
+        stage('SonarQube Scan') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    sh '''
+                    echo "Scanning..."
+                    '''
+                }
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                sh 'docker build -t devops-services-portal -f docker/Dockerfile .'
+            }
+        }
+
+        stage('Deploy Container') {
+            steps {
+                sh '''
+                docker rm -f devops-services-portal || true
+                docker run -d --name devops-services-portal -p 85:80 devops-services-portal
+                '''
+            }
+        }
+    }
+}
