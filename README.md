@@ -38,6 +38,7 @@ AWS EC2 Instance
    ↓
 Live Website
 
+**PROOF OF SCREEN SHOTS**
 ## GitHub Repository
 ![GitHub Repo](screenshots/repo.png)
 
