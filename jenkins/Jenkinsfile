@@ -13,9 +13,7 @@ pipeline {
         stage('SonarQube Scan') {
             steps {
                 withSonarQubeEnv('SonarQube') {
-                    sh '''
-                    echo "Scanning..."
-                    '''
+                    sh 'sonar-scanner'
                 }
             }
         }
@@ -33,6 +31,15 @@ pipeline {
                 docker run -d --name devops-services-portal -p 85:80 devops-services-portal
                 '''
             }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build and Deployment Successful!'
+        }
+        failure {
+            echo 'Build Failed!'
         }
     }
 }
