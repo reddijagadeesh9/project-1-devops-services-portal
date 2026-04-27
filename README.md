@@ -1,4 +1,6 @@
 # 🚀 Project 1 - DevOps Services Portal
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0e3d2aeb-5f39-4974-b1a1-14374e5b7112" />
+
 
 ## 📌 Project Description
 **DevOps Services Portal** is a real-world DevOps project designed to demonstrate a complete **CI/CD (Continuous Integration & Continuous Deployment)** pipeline for deploying a frontend web application using modern DevOps tools and cloud infrastructure.
@@ -161,6 +163,9 @@ Sonar project
 
 7️⃣ SonarScanner Installation on Jenkins Server
 
+<img width="1905" height="875" alt="Screenshot 2026-04-24 180857" src="https://github.com/user-attachments/assets/2c382d5c-774c-48e4-b14a-4fe8602e3aa6" />
+
+
 Installed SonarScanner:
 
 wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli.zip
@@ -175,6 +180,8 @@ SonarScanner tool
 8️⃣ Jenkins Pipeline Setup
 
 Created Jenkins Pipeline job with stages:
+<img width="1899" height="519" alt="Screenshot 2026-04-24 182050" src="https://github.com/user-attachments/assets/1f8987a5-1506-4305-924d-61ac8daee843" />
+
 
 ✅ Checkout
 
@@ -208,6 +215,9 @@ Application deployed successfully on Jenkins EC2 server.
 Live Website URL:
 
 http://16.16.124.204:85
+
+<img width="1885" height="969" alt="Screenshot 2026-04-24 181930" src="https://github.com/user-attachments/assets/428b6308-bc3a-496c-aa99-7ecfc5b8f47d" />
+
 
 📁 Repository Structure
 devops-services-portal/
@@ -292,12 +302,28 @@ pipeline {
 This repository includes screenshots for:
 
 Website homepage
+<img width="1885" height="969" alt="Screenshot 2026-04-24 181930" src="https://github.com/user-attachments/assets/773c3319-0d95-481a-b8d0-cb38c9b6130a" />
+
 Search functionality
+<img width="1905" height="880" alt="Screenshot 2026-04-24 181949" src="https://github.com/user-attachments/assets/3fadc49f-57ca-4103-8b02-8f6bd79bd308" />
+
 Jenkins dashboard
+<img width="1365" height="902" alt="Screenshot 2026-04-24 182232" src="https://github.com/user-attachments/assets/5571cd42-ee2f-4298-b5ae-8e795eb097df" />
+
 Pipeline success
+<img width="1899" height="519" alt="Screenshot 2026-04-24 182050" src="https://github.com/user-attachments/assets/f1b27c9d-c09b-4835-921f-2f5afe9fc5bc" />
+
 SonarQube dashboard
+<img width="1914" height="862" alt="Screenshot 2026-04-24 180923" src="https://github.com/user-attachments/assets/828942e3-4b29-48c0-8cac-f094e007f292" />
+
+<img width="1905" height="875" alt="Screenshot 2026-04-24 180857" src="https://github.com/user-attachments/assets/12e212f7-10db-40bf-9a83-d74d788d7f2d" />
+
 Docker build
+<img width="1898" height="355" alt="docker_ps" src="https://github.com/user-attachments/assets/573aa4c3-b489-433c-b711-993adee0a48a" />
+
 Live deployment
+<img width="1885" height="969" alt="Screenshot 2026-04-24 181930" src="https://github.com/user-attachments/assets/9c902dc0-71c9-454e-bc1b-d69fa808dbb2" />
+
 
 👨‍💻 Author
 
