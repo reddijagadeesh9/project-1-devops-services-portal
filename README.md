@@ -40,28 +40,6 @@ AWS EC2 Instance
    ↓
 Live Website
 
-**PROOF OF SCREEN SHOTS**
-## GitHub Repository
-![GitHub Repo](screenshots/repo.png)
-
-## Website Homepage
-![Website](screenshots/website-homepage.png)
-
-## Jenkins Dashboard
-![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
-
-## Jenkins Pipeline Success
-![Pipeline](screenshots/jenkins-pipeline-success.png)
-
-## SonarQube Dashboard
-![SonarQube](screenshots/sonarqube-dashboard.png)
-
-## Docker Running Container
-![Docker](screenshots/docker_ps.png)
-
-## AWS EC2 Instances
-![AWS EC2](screenshots/aws-ec2-instances.png)
-
 Implementation Process
 1️⃣ GitHub Repository Setup
 
